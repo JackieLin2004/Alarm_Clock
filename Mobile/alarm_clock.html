@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alarm Clock</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="alarm_clock.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <canvas id="clock" height="260vw" width="260vw"></canvas>
+    <br><br>
+    <div class="alarm">
+        <div class="show-time">
+            <label for="alarm-time"><strong>闹钟时间：</strong></label>
+            <input type="time" id="alarm-time" name="alarm-time">
+        </div>
+        <br>
+        <button class="set-alarm" onclick="setAlarm()">设置闹钟</button>
+        <audio controls id="alarm-clock">
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <button class="close-alarm" onclick="closeAlarm()">关闭闹钟</button>
+    </div>
+</div>
+
+<script type="text/javascript" src="clock.js"></script>
+
+</body>
+</html>
