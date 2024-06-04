@@ -1,4 +1,4 @@
-.wrapper {
+.box {
     text-align: center;
     margin-top: 10vw;
 }
@@ -7,21 +7,21 @@
     /*border: 1px solid #ccc;*/
 }
 
-.wrapper .alarm {
+.box .alarm {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.wrapper .alarm .show-time {
+.box .alarm .show-time {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.wrapper .alarm button {
+.box .alarm button {
     width: 100%;
     height: 10vw;
     border: none;
@@ -32,6 +32,6 @@
     font-size: 4vw;
 }
 
-.wrapper .alarm audio {
+.box .alarm audio {
     display: none;
 }
